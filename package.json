@@ -15,8 +15,10 @@
     "react-window": "^1.8.6"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "dev": "vite",
-    "build": "vite build",
     "serve": "vite preview",
     "prepare": "husky install",
     "lint": "prettier --check . && eslint src/**/*.jsx",
